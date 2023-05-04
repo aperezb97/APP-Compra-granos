@@ -85,6 +85,9 @@ A continuación, se adjuntan imágenes que ilustran el proceso mencionado.
   
   [![screencapture-docs-google-forms-d-e-1-FAIp-QLSe-Db-Bu-Xd-KX320-F6m-VFNOJ2-W5o-Gv-Vlj0w7-A1s4l-ZMJJwix-Rgk-A-viewfor.png](https://i.postimg.cc/MZykn1Y2/screencapture-docs-google-forms-d-e-1-FAIp-QLSe-Db-Bu-Xd-KX320-F6m-VFNOJ2-W5o-Gv-Vlj0w7-A1s4l-ZMJJwix-Rgk-A-viewfor.png)](https://postimg.cc/MXK34M4d)
   
+  Una vez que es enviado el formulario el pdf se envia a una casilla de email que recibe todos los envios y este distribuye a cada destinatario según filtros aplicados por el asunto con el que ingresa(disponible de ver en el código). 
+  Ejemplo: Si la orden de venta fue enviada por la sucursal de Hernando, el email ingresa como "Orden de Venta - Hernando". Al decir Hernando el asunto el email filtra y reenvía solo a los destinos de Hernando.
+  
   ### PDF que importa datos del formulario ingresado y se genera en base a lo ingresado
   
   [![Orden-de-Venta.png](https://i.postimg.cc/Fz1JBhp0/Orden-de-Venta.png)](https://postimg.cc/8fQ5FQqC)
