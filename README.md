@@ -15,7 +15,7 @@ A continuación, se adjuntan imágenes que ilustran el proceso mencionado.
 
 ### Código que utiliza la planilla de Google Sheets para generar el pdf mediante un activador de envío de formulario.
 
-`function myFunction() {
+```function myFunction() {
   //definimos las variables del proyecto
   var app = SpreadsheetApp; // accedemos a la aplicación de spreeadsheet
   var ss = app.openById("1dJMujPzzmGfJiB4KHTPFXvYZY516Dot5wQ5nt02q"); //seleccionamos el archivo que vamos a utilizar
@@ -78,7 +78,7 @@ A continuación, se adjuntan imágenes que ilustran el proceso mencionado.
     body.replaceText('%nombreCondicion%', nombreCondicion);
     body.replaceText('%nombreId%', nombreId);
   plantillaNueva.saveAndClose();
-  `
+  ```
   
   
   ### Formulario desde el que se ingresan las ordenes de venta.
@@ -91,7 +91,7 @@ A continuación, se adjuntan imágenes que ilustran el proceso mencionado.
   
   ### Ejemplo del PDF. Cada pdf generado es guardado en la nube de Google Drive, dividido por mes en el que ingresa.
   
-  [![Orden-de-Venta-Prueba-Mayo2023.png](https://i.postimg.cc/TPFw3nJ5/Orden-de-Venta-Prueba-Mayo2023.png)](https://postimg.cc/GBPrM8Nb)
+[![Orden-de-Venta-Prueba-Mayo2023-1.png](https://i.postimg.cc/FFBVj6F2/Orden-de-Venta-Prueba-Mayo2023-1.png)](https://postimg.cc/F10SvDLZ)
   
   ### Imagen de base de datos general donde ingresan las ordenes.
   
@@ -103,7 +103,7 @@ A continuación, se adjuntan imágenes que ilustran el proceso mencionado.
   
   =QUERY(IMPORTRANGE("1d3G1-0n--E0X8DmjO8rKNtLKWE00XcujYTUR";"ov_hab!$A:$P");"SELECT * WHERE Col6='Soja'";1)
   
-  [![Screenshot-2023-05-04-150912.png](https://i.postimg.cc/3xZfhB79/Screenshot-2023-05-04-150912.png)](https://postimg.cc/xXc3yLXb)
+ [![Screenshot-2023-05-04-152553.png](https://i.postimg.cc/h41qv9Sz/Screenshot-2023-05-04-152553.png)](https://postimg.cc/z3vQPHH8)
   
   
   Por privacidad de la empresa las columnas de Cliente y Sucursal fueron eliminadas.
