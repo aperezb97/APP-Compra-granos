@@ -1,5 +1,5 @@
 # APP-Compra-granos
-Aplicación realizada con los servicios de google para sistematizar la compra de granos en una empresa.
+## Aplicación realizada con los servicios de google para sistematizar la compra de granos en una empresa.
 
 Este proyecto surge como respuesta a la necesidad de agilizar y simplificar el proceso de ingreso de las "órdenes de venta" diarias realizadas por una empresa que compra granos a distintos productores y acopios. El objetivo es llevar un registro actualizado de la posición diaria de compra, el cual requiere confirmación por parte de la mesa de granos antes de ser cargado en el sistema utilizado por la empresa.
 
@@ -15,7 +15,7 @@ A continuación, se adjuntan imágenes que ilustran el proceso mencionado.
 
 ### Código que utiliza la planilla de Google Sheets para generar el pdf mediante un activador de envío de formulario.
 
-function myFunction() {
+`function myFunction() {
   //definimos las variables del proyecto
   var app = SpreadsheetApp; // accedemos a la aplicación de spreeadsheet
   var ss = app.openById("1dJMujPzzmGfJiB4KHTPFXvYZY516Dot5wQ5nt02q"); //seleccionamos el archivo que vamos a utilizar
@@ -78,7 +78,7 @@ function myFunction() {
     body.replaceText('%nombreCondicion%', nombreCondicion);
     body.replaceText('%nombreId%', nombreId);
   plantillaNueva.saveAndClose();
-  
+  `
   
   
   ### Formulario desde el que se ingresan las ordenes de venta.
